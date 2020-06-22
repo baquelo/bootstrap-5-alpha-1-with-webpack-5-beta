@@ -2,7 +2,6 @@
 
 Configurating Bootstrap 5 using Webpack 5 Beta
 
-
 ## Generate files to development
 
 ```
@@ -14,3 +13,5 @@ yarn dev
 ```
 yarn watch
 ```
+
+See more about in https://marceloalmeida.dev.
