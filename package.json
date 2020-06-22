@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-v5-alpha-1",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 Alpha 1",
+  "main": "index.js",
+  "repository": "https://github.com/baquelo/bootstrap-v5-alpha-1.git",
+  "author": "Marcelo Almeida <contato@marceloalmeida.dev>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack-dev-server --mode development --open"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.2",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^5.0.0-beta.18",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
